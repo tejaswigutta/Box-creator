@@ -1,0 +1,23 @@
+
+#parent{  
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+   
+}
+.boxes{  // style for boxes to be created
+    height:70px;
+    width:70px;
+    margin:20px;
+    border:1px ridge black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#count,#color,#button{ //style for input fields and create button
+    margin:10px;
+    height:30px;
+    width:150px;
+
+}
